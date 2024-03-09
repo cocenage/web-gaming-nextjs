@@ -1,12 +1,12 @@
 import Link from 'next/link';
-import React from 'react'
+import React from 'react';
 
 const menuLinks = [
     { label: 'Главная', url: '/' },
     { label: 'about', url: '/about' },
     { label: 'sales', url: '/sales' },
     { label: 'catalog', url: '/catalog' },
-    { label: 'contacts', url: '/contacts' },
+    { label: 'contacts', url: '/contacts' }
 ];
 
     const Navbar = ({containerStyle} : { containerStyle: string }) => {
