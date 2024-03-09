@@ -17,7 +17,7 @@ const menuLinks = [
             return (
                 <>
                     <li key={index}>
-                        <Link href={item.url}>{item.label}</Link>
+                        <Link className='text-white uppercase hover:text-accent transition-all' href={item.url}>{item.label}</Link>
                     </li>
                 </>
             )
